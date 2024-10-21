@@ -8,11 +8,11 @@ const batchSchema = mongoose.Schema(
             required: [true, "Please enter a batch name"]
         },
         start_date: {
-            type: String,
+            type: Date,
             required: true
         },
         end_date: {
-            type: String,
+            type: Date,
             required: true
         },
         batch_status: {
