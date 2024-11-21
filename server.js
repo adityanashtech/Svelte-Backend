@@ -183,7 +183,7 @@ connect(process.env.MONGODB_URI)
 .then(() => {
     console.log('connected to MongoDB')
     app.listen(3000, ()=> {
-        console.log(`Node API app is running on port 3000`)
+        console.log(`Node API apps is running on port 3000`)
     });
 }).catch((error) => {
     console.log(error)
